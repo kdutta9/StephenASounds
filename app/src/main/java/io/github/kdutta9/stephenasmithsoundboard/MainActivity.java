@@ -1,9 +1,14 @@
 package io.github.kdutta9.stephenasmithsoundboard;
 
-import android.media.MediaPlayer;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.media.MediaPlayer;
+
 
 public class MainActivity extends AppCompatActivity {
     MediaPlayer sound1;
@@ -32,6 +37,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button specificPage = findViewById(R.id.specificbutton);
+        specificPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SpecificActivity.class);
+                startActivity(intent);
+            }});
+
         sound1 = MediaPlayer.create(this, R.raw.sound1);
         sound2 = MediaPlayer.create(this, R.raw.sound2);
         sound3 = MediaPlayer.create(this, R.raw.sound3);
@@ -118,4 +132,5 @@ public class MainActivity extends AppCompatActivity {
             sound20.start();
         }
     }
+
 }
