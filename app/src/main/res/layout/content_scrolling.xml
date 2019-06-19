@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sound1"
+                android:onClick="sound1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound1" />
+            <Button
+                android:id="@+id/sound2"
+                android:onClick="sound2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound2" />
+            <Button
+                android:id="@+id/sound3"
+                android:onClick="sound3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound3" />
+            <Button
+                android:id="@+id/sound4"
+                android:onClick="sound4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound4" />
+            <Button
+                android:id="@+id/sound5"
+                android:onClick="sound5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound5" />
+            <Button
+                android:id="@+id/sound6"
+                android:onClick="sound6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound6" />
+            <Button
+                android:id="@+id/sound7"
+                android:onClick="sound7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound7" />
+            <Button
+                android:id="@+id/sound8"
+                android:onClick="sound8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound8" />
+            <Button
+                android:id="@+id/sound9"
+                android:onClick="sound9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound9" />
+            <Button
+                android:id="@+id/sound10"
+                android:onClick="sound10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound10" />
+            <Button
+                android:id="@+id/sound11"
+                android:onClick="sound11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound11" />
+            <Button
+                android:id="@+id/sound12"
+                android:onClick="sound12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound12" />
+            <Button
+                android:id="@+id/sound13"
+                android:onClick="sound13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound13" />
+            <Button
+                android:id="@+id/sound14"
+                android:onClick="sound14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound14" />
+            <Button
+                android:id="@+id/sound15"
+                android:onClick="sound15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound15" />
+            <Button
+                android:id="@+id/sound16"
+                android:onClick="sound16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound16" />
+            <Button
+                android:id="@+id/sound17"
+                android:onClick="sound17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound17" />
+            <Button
+                android:id="@+id/sound18"
+                android:onClick="sound18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound18" />
+            <Button
+                android:id="@+id/sound19"
+                android:onClick="sound19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound19" />
+            <Button
+                android:id="@+id/sound20"
+                android:onClick="sound20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound20" />
+
+            <TextView
+                android:id="@+id/copyright_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright_text"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

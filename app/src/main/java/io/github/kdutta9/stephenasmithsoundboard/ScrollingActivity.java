@@ -1,16 +1,15 @@
 package io.github.kdutta9.stephenasmithsoundboard;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
-import android.media.MediaPlayer;
 
+public class ScrollingActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
     MediaPlayer sound1;
     MediaPlayer sound2;
     MediaPlayer sound3;
@@ -32,17 +31,18 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer sound19;
     MediaPlayer sound20;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_scrolling);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        Button specificPage = findViewById(R.id.specific_button);
-        specificPage.setOnClickListener(new View.OnClickListener() {
+        Button randomPage = findViewById(R.id.random_button);
+        randomPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+                Intent intent = new Intent(ScrollingActivity.this, MainActivity.class);
                 startActivity(intent);
             }});
 
@@ -68,69 +68,24 @@ public class MainActivity extends AppCompatActivity {
         sound20 = MediaPlayer.create(this, R.raw.sound20);
     }
 
-    public void sound(View view) {
-        double randomNum = Math.random() * 20 + 1;
-        int selector = (int) randomNum;
-        if (selector == 1) {
-            sound1.start();
-        }
-        if (selector == 2) {
-            sound2.start();
-        }
-        if (selector == 3) {
-            sound3.start();
-        }
-        if (selector == 4) {
-            sound4.start();
-        }
-        if (selector == 5) {
-            sound5.start();
-        }
-        if (selector == 6) {
-            sound6.start();
-        }
-        if (selector == 7) {
-            sound7.start();
-        }
-        if (selector == 8) {
-            sound8.start();
-        }
-        if (selector == 9) {
-            sound9.start();
-        }
-        if (selector == 10) {
-            sound10.start();
-        }
-        if (selector == 11) {
-            sound11.start();
-        }
-        if (selector == 12) {
-            sound12.start();
-        }
-        if (selector == 13) {
-            sound13.start();
-        }
-        if (selector == 14) {
-            sound14.start();
-        }
-        if (selector == 15) {
-            sound15.start();
-        }
-        if (selector == 16) {
-            sound16.start();
-        }
-        if (selector == 17) {
-            sound17.start();
-        }
-        if (selector == 18) {
-            sound18.start();
-        }
-        if (selector == 19) {
-            sound19.start();
-        }
-        if (selector == 20) {
-            sound20.start();
-        }
-    }
-
+    public void sound1(View view) { sound1.start(); }
+    public void sound2(View view) { sound2.start(); }
+    public void sound3(View view) { sound3.start(); }
+    public void sound4(View view) { sound4.start(); }
+    public void sound5(View view) { sound5.start(); }
+    public void sound6(View view) { sound6.start(); }
+    public void sound7(View view) { sound7.start(); }
+    public void sound8(View view) { sound8.start(); }
+    public void sound9(View view) { sound9.start(); }
+    public void sound10(View view) { sound10.start(); }
+    public void sound11(View view) { sound11.start(); }
+    public void sound12(View view) { sound12.start(); }
+    public void sound13(View view) { sound13.start(); }
+    public void sound14(View view) { sound14.start(); }
+    public void sound15(View view) { sound15.start(); }
+    public void sound16(View view) { sound16.start(); }
+    public void sound17(View view) { sound17.start(); }
+    public void sound18(View view) { sound18.start(); }
+    public void sound19(View view) { sound19.start(); }
+    public void sound20(View view) { sound20.start(); }
 }

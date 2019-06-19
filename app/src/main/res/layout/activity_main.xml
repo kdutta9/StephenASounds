@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:background="@android:color/holo_blue_dark"
+    tools:background="@android:color/white"
     tools:context=".MainActivity">
 
 
@@ -13,34 +13,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/contentDesc"
         android:onClick="sound"
         app:srcCompat="@drawable/button_icon"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="203dp" />
 
     <Button
-        android:id="@+id/randombutton"
-        android:layout_width="201dp"
-        android:layout_height="64dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="630dp"
-        android:background="@android:color/darker_gray"
-        android:text="@string/random_button" />
-
-    <Button
-        android:id="@+id/specificbutton"
-        android:layout_width="201dp"
-        android:layout_height="64dp"
+        android:id="@+id/specific_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:layout_marginBottom="630dp"
+        android:layout_marginBottom="646dp"
         android:background="?attr/colorButtonNormal"
         android:text="@string/specific_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instructions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/black" />
 </RelativeLayout>
