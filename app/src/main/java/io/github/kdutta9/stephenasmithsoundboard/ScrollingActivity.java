@@ -30,6 +30,21 @@ public class ScrollingActivity extends AppCompatActivity {
     MediaPlayer sound18;
     MediaPlayer sound19;
     MediaPlayer sound20;
+    MediaPlayer sound21;
+    MediaPlayer sound22;
+    MediaPlayer sound23;
+    MediaPlayer sound24;
+    MediaPlayer sound25;
+    MediaPlayer sound26;
+    MediaPlayer sound27;
+    MediaPlayer sound28;
+    MediaPlayer sound29;
+    MediaPlayer sound30;
+    MediaPlayer sound31;
+    MediaPlayer sound32;
+    MediaPlayer sound33;
+    MediaPlayer sound34;
+    MediaPlayer sound35;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +81,21 @@ public class ScrollingActivity extends AppCompatActivity {
         sound18 = MediaPlayer.create(this, R.raw.sound18);
         sound19 = MediaPlayer.create(this, R.raw.sound19);
         sound20 = MediaPlayer.create(this, R.raw.sound20);
+        sound21 = MediaPlayer.create(this, R.raw.sound21);
+        sound22 = MediaPlayer.create(this, R.raw.sound22);
+        sound23 = MediaPlayer.create(this, R.raw.sound23);
+        sound24 = MediaPlayer.create(this, R.raw.sound24);
+        sound25 = MediaPlayer.create(this, R.raw.sound25);
+        sound26 = MediaPlayer.create(this, R.raw.sound26);
+        sound27 = MediaPlayer.create(this, R.raw.sound27);
+        sound28 = MediaPlayer.create(this, R.raw.sound28);
+        sound29 = MediaPlayer.create(this, R.raw.sound29);
+        sound30 = MediaPlayer.create(this, R.raw.sound30);
+        sound31 = MediaPlayer.create(this, R.raw.sound31);
+        sound32 = MediaPlayer.create(this, R.raw.sound32);
+        sound33 = MediaPlayer.create(this, R.raw.sound33);
+        sound34 = MediaPlayer.create(this, R.raw.sound34);
+        sound35 = MediaPlayer.create(this, R.raw.sound35);
     }
 
     public void sound1(View view) { sound1.start(); }
@@ -88,4 +118,19 @@ public class ScrollingActivity extends AppCompatActivity {
     public void sound18(View view) { sound18.start(); }
     public void sound19(View view) { sound19.start(); }
     public void sound20(View view) { sound20.start(); }
+    public void sound21(View view) { sound21.start(); }
+    public void sound22(View view) { sound22.start(); }
+    public void sound23(View view) { sound23.start(); }
+    public void sound24(View view) { sound24.start(); }
+    public void sound25(View view) { sound25.start(); }
+    public void sound26(View view) { sound26.start(); }
+    public void sound27(View view) { sound27.start(); }
+    public void sound28(View view) { sound28.start(); }
+    public void sound29(View view) { sound29.start(); }
+    public void sound30(View view) { sound30.start(); }
+    public void sound31(View view) { sound31.start(); }
+    public void sound32(View view) { sound32.start(); }
+    public void sound33(View view) { sound33.start(); }
+    public void sound34(View view) { sound34.start(); }
+    public void sound35(View view) { sound35.start(); }
 }

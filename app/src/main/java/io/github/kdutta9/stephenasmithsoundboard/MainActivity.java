@@ -3,8 +3,6 @@ package io.github.kdutta9.stephenasmithsoundboard;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.media.MediaPlayer;
@@ -31,6 +29,21 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer sound18;
     MediaPlayer sound19;
     MediaPlayer sound20;
+    MediaPlayer sound21;
+    MediaPlayer sound22;
+    MediaPlayer sound23;
+    MediaPlayer sound24;
+    MediaPlayer sound25;
+    MediaPlayer sound26;
+    MediaPlayer sound27;
+    MediaPlayer sound28;
+    MediaPlayer sound29;
+    MediaPlayer sound30;
+    MediaPlayer sound31;
+    MediaPlayer sound32;
+    MediaPlayer sound33;
+    MediaPlayer sound34;
+    MediaPlayer sound35;
 
 
     @Override
@@ -66,10 +79,25 @@ public class MainActivity extends AppCompatActivity {
         sound18 = MediaPlayer.create(this, R.raw.sound18);
         sound19 = MediaPlayer.create(this, R.raw.sound19);
         sound20 = MediaPlayer.create(this, R.raw.sound20);
+        sound21 = MediaPlayer.create(this, R.raw.sound21);
+        sound22 = MediaPlayer.create(this, R.raw.sound22);
+        sound23 = MediaPlayer.create(this, R.raw.sound23);
+        sound24 = MediaPlayer.create(this, R.raw.sound24);
+        sound25 = MediaPlayer.create(this, R.raw.sound25);
+        sound26 = MediaPlayer.create(this, R.raw.sound26);
+        sound27 = MediaPlayer.create(this, R.raw.sound27);
+        sound28 = MediaPlayer.create(this, R.raw.sound28);
+        sound29 = MediaPlayer.create(this, R.raw.sound29);
+        sound30 = MediaPlayer.create(this, R.raw.sound30);
+        sound31 = MediaPlayer.create(this, R.raw.sound31);
+        sound32 = MediaPlayer.create(this, R.raw.sound32);
+        sound33 = MediaPlayer.create(this, R.raw.sound33);
+        sound34 = MediaPlayer.create(this, R.raw.sound34);
+        sound35 = MediaPlayer.create(this, R.raw.sound35);
     }
 
     public void sound(View view) {
-        double randomNum = Math.random() * 20 + 1;
+        double randomNum = Math.random() * 35 + 1;
         int selector = (int) randomNum;
         if (selector == 1) {
             sound1.start();
@@ -131,6 +159,50 @@ public class MainActivity extends AppCompatActivity {
         if (selector == 20) {
             sound20.start();
         }
+        if (selector == 21) {
+            sound21.start();
+        }
+        if (selector == 22) {
+            sound22.start();
+        }
+        if (selector == 23) {
+            sound23.start();
+        }
+        if (selector == 24) {
+            sound24.start();
+        }
+        if (selector == 25) {
+            sound25.start();
+        }
+        if (selector == 26) {
+            sound26.start();
+        }
+        if (selector == 27) {
+            sound27.start();
+        }
+        if (selector == 28) {
+            sound28.start();
+        }
+        if (selector == 29) {
+            sound29.start();
+        }
+        if (selector == 30) {
+            sound30.start();
+        }
+        if (selector == 31) {
+            sound31.start();
+        }
+        if (selector == 32) {
+            sound32.start();
+        }
+        if (selector == 33) {
+            sound33.start();
+        }
+        if (selector == 34) {
+            sound34.start();
+        }
+        if (selector == 35) {
+            sound35.start();
+        }
     }
-
 }

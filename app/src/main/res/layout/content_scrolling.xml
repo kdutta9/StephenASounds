@@ -142,6 +142,96 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sound20" />
+            <Button
+                android:id="@+id/sound21"
+                android:onClick="sound21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound21" />
+            <Button
+                android:id="@+id/sound22"
+                android:onClick="sound22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound22" />
+            <Button
+                android:id="@+id/sound23"
+                android:onClick="sound23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound23" />
+            <Button
+                android:id="@+id/sound24"
+                android:onClick="sound24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound24" />
+            <Button
+                android:id="@+id/sound25"
+                android:onClick="sound25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound25" />
+            <Button
+                android:id="@+id/sound26"
+                android:onClick="sound26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound26" />
+            <Button
+                android:id="@+id/sound27"
+                android:onClick="sound27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound27" />
+            <Button
+                android:id="@+id/sound28"
+                android:onClick="sound28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound28" />
+            <Button
+                android:id="@+id/sound29"
+                android:onClick="sound29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound29" />
+            <Button
+                android:id="@+id/sound30"
+                android:onClick="sound30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound30" />
+            <Button
+                android:id="@+id/sound31"
+                android:onClick="sound31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound31" />
+            <Button
+                android:id="@+id/sound32"
+                android:onClick="sound32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound32" />
+            <Button
+                android:id="@+id/sound33"
+                android:onClick="sound33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound33" />
+            <Button
+                android:id="@+id/sound34"
+                android:onClick="sound34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound34" />
+            <Button
+                android:id="@+id/sound35"
+                android:onClick="sound35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound35" />
 
             <TextView
                 android:id="@+id/copyright_text"
