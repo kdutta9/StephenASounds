@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sound(View view) {
-        double randomNum = Math.random() * 35 + 1;
+        double randomNum = Math.random() * 36 + 1;
         int selector = (int) randomNum;
         if (selector == 1) {
             sound1.start();
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         if (selector == 2) {
             sound2.start();
         }
-        if (selector == 3) {
+        if (selector == 3 || selector == 36) {
             sound3.start();
         }
         if (selector == 4) {
