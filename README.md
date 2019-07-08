@@ -1,4 +1,7 @@
 # StephenASounds
+This README is currently under construction. Will be done by September!!!
+
+
 This is an Android app, built with the Android Studio IDE, that projects a Stephen A. Smith "sound" whenever the icon (his face) is clicked and host a palette of many of his great exclamations. Featuring 35 sounds.
 
 ## Getting Started
@@ -17,10 +20,9 @@ Insert how-to
 ## Demo
 Insert demo video
 
-## Running tests
+## Running Tests
 Android Studio provides a virtual device to simulate the app. One can also connect an Android device to the computer running Android Studio and test the app on the device if [developer mode is enabled](https://www.digitaltrends.com/mobile/how-to-get-developer-options-on-android/).
 
 ## Acknowledgments
 * Huge thanks to Stephen A. Smith for his inspiration for the app.
 * Helpful Videos: [Soundboard Tutorial](https://www.youtube.com/watch?v=EOzAF0BfnM4), [Switching Activities](https://www.youtube.com/watch?v=n21mXO1ASJM&t=)
-* etc
