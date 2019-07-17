@@ -11,11 +11,22 @@ These instructions will get you a copy of the project up and running on your loc
 * [Android Studio](https://developer.android.com/studio/index.html) 
 
 ### Download
-By downloading/cloning the repository onto a local machine, a user can access this project when Android Studio is started up as shown.
-Insert photo.
+By downloading/cloning the repository onto a local machine, a user can access/develop this project through Android Studio.
 
-## How To Build
-Insert how-to
+## General Guide
+1. Start with a blank activity, using EmptyActivity template..
+
+2. Add a button to the center of the activity.
+
+3. Enable the onclick method, and use it to play random sounds from library when clicked.
+
+4. Create a secondary activity, using ScrollingActivity template.
+
+5. Create buttons inside the scrolling activity, and use onclick to play corresponding sounds from library.
+
+6. Add buttons onto each activity to link to the other activity.
+
+7. Release project using "Build APK" under build bar.
 
 ## Demo
 Insert demo video
