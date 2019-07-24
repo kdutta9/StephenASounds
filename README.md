@@ -34,6 +34,14 @@ Insert demo video
 ## Running Tests
 Android Studio provides a virtual device to simulate the app. One can also connect an Android device to the computer running Android Studio and test the app on the device if [developer mode is enabled](https://www.digitaltrends.com/mobile/how-to-get-developer-options-on-android/).
 
+## Versions
+
+### v1.0 
+The baseline app, with ability to click Stephen A. Smith's face to generate a random sound, or switch to a page to select specific sounds by title.
+
+### v1.1
+Used different download package so all Androids can download and adjusted probability of some sounds' playback.
+
 ## Acknowledgments
 * Huge thanks to Stephen A. Smith for his inspiration for the app.
 * Helpful Videos: [Soundboard Tutorial](https://www.youtube.com/watch?v=EOzAF0BfnM4), [Switching Activities](https://www.youtube.com/watch?v=n21mXO1ASJM&t=)
