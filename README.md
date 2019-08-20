@@ -29,7 +29,7 @@ By downloading/cloning the repository onto a local machine, a user can access/de
 7. Release project using "Build APK" under build bar.
 
 ## Demo
-Insert demo video
+[![Stephen A. Sounds](http://img.youtube.com/vi/tZKLxY2MVzA/0.jpg)](http://www.youtube.com/watch?v=tZKLxY2MVzA "Stephen A. Sounds App Demo")
 
 ## Running Tests
 Android Studio provides a virtual device to simulate the app. One can also connect an Android device to the computer running Android Studio and test the app on the device if [developer mode is enabled](https://www.digitaltrends.com/mobile/how-to-get-developer-options-on-android/).

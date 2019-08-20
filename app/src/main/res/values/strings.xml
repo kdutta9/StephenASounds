@@ -12,41 +12,43 @@
     <string name="specific_button">Click for All Sound Clips</string>
 
     <!-- Sound Buttons -->
-    <string name="sound1">This is Disgusting</string>
-    <string name="sound2">Disgrace</string>
-    <string name="sound3">Stay Off the Weed</string>
-    <string name="sound4">Bona Fide Scrub</string>
-    <string name="sound5">Who Was on Crack</string>
-    <string name="sound6">Something is Wrong with You</string>
-    <string name="sound7">Just Stop It</string>
-    <string name="sound8">Scared</string>
-    <string name="sound9">Booty, Leg, and Hip Man</string>
-    <string name="sound10">Hahaha</string>
-    <string name="sound11">Damn them Cowboys</string>
-    <string name="sound12">Dead Clock</string>
-    <string name="sound13">They Got Me Today</string>
-    <string name="sound14">Blasphemy</string>
-    <string name="sound15">Jabba the Hut</string>
-    <string name="sound16">I\'ll Make You Suffer</string>
-    <string name="sound17">Get Him Out of New York</string>
-    <string name="sound18">I\'m Sick</string>
-    <string name="sound19">Bad Man</string>
-    <string name="sound20">World is Beautiful</string>
-    <string name="sound21">I am a straight punk</string>
-    <string name="sound22">Quack quack quack</string>
-    <string name="sound23">Well Duh</string>
-    <string name="sound24">You Annoyed Me</string>
-    <string name="sound25">Horrible</string>
-    <string name="sound26">Still</string>
-    <string name="sound27">45 minutes a game</string>
-    <string name="sound28">It wasn\'t me</string>
-    <string name="sound29">Hell No</string>
-    <string name="sound30">The Obvious</string>
-    <string name="sound31">Goodbye</string>
-    <string name="sound32">Kawhi Laugh</string>
-    <string name="sound33">Big Tub</string>
-    <string name="sound34">Kembert Walker</string>
-    <string name="sound35">Stay Off the Damn Weed</string>
+    <string-array name="sound_selections">
+        <item>This is Disgusting</item>
+        <item>Disgrace</item>
+        <item>Stay Off the Weed</item>
+        <item>Bona Fide Scrub</item>
+        <item>Who Was on Crack</item>
+        <item>Something is Wrong with You</item>
+        <item>Just Stop It</item>
+        <item>Scared</item>
+        <item>Booty, Leg, and Hip Man</item>
+        <item>Hahaha</item>
+        <item>Damn them Cowboys</item>
+        <item>Dead Clock</item>
+        <item>They Got Me Today</item>
+        <item>Blasphemy</item>
+        <item>Jabba the Hut</item>
+        <item>I\'ll Make You Suffer</item>
+        <item>Get Him Out of New York</item>
+        <item>I\'m Sick</item>
+        <item>Bad Man</item>
+        <item>World is Beautiful</item>
+        <item>I am a straight punk</item>
+        <item>Quack quack quack</item>
+        <item>Well Duh</item>
+        <item>You Annoyed Me</item>
+        <item>Horrible</item>
+        <item>Still</item>
+        <item>45 minutes a game</item>
+        <item>It wasn\'t me</item>
+        <item>Hell No</item>
+        <item>The Obvious</item>
+        <item>Goodbye</item>
+        <item>Kawhi Laugh</item>
+        <item>Big Tub</item>
+        <item>Kembert Walker</item>
+        <item>Stay Off the Damn Weed</item>
+    </string-array>
 
 </resources>
 
